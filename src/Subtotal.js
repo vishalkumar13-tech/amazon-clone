@@ -1,5 +1,6 @@
 import React from 'react'
 import './Subtotal.css';
+import CurrencyFormat from 'react-currency-format';
 
 function Subtotal() {
   return (
@@ -21,8 +22,9 @@ function Subtotal() {
             value={0}
             displayType={"text"}
             thousandSeprator={true}
-            prefix={"£"}
+            prefix={"$"}
         />
+        <button>Proceed to Checkout</button>
     </div>
   )
 }

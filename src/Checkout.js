@@ -11,6 +11,7 @@ function Checkout() {
             <h2 className="checkout__title">
                 Your shopping basket
             </h2>
+            
             {/* BasketItem  */}
             {/* BasketItem  */}
             {/* BasketItem  */}
